@@ -14,8 +14,8 @@
         android:gravity="center">
 
         <ImageView
-            android:layout_width="35dp"
-            android:layout_height="35dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_marginRight="5dp"
             android:layout_marginBottom="2dp"
             android:src="@drawable/java_img" />
@@ -26,7 +26,7 @@
             android:text="JAVA"
             android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="36sp"
+            android:textSize="30sp"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -37,7 +37,7 @@
         android:orientation="vertical">
 
         <ListView
-            android:id="@+id/listview"
+            android:id="@+id/listview_java"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </LinearLayout>
