@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.james.programminglover.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_ascii"
+        android:name="com.james.programminglover.ui.gallery.GalleryFragment"
+        android:label="@string/ascii_table"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.james.programminglover.ui.slideshow.SlideshowFragment"
+        android:label="@string/share_app"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_rate"
+        android:name="com.james.programminglover.fragment.AboutFragment"
+        android:label="@string/rate_us"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.james.programminglover.fragment.FeedbackFragment"
+        android:label="@string/feedback"
+        tools:layout="@layout/fragment_feedback" />
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.james.programminglover.fragment.RateFragment"
+        android:label="@string/about_us"
+        tools:layout="@layout/fragment_rate" />
+</navigation>
